@@ -30,60 +30,43 @@ if (age < 18){
 		output = "has lived through many epic battles";
 	}
 
-MyAge(age);
 console.log(hero + "is our lovable hero, who" + age == 21 + "with his trusty" + weapon);
 
 
-
-
-
-
-
-
-
-
-
-var xp;
- var hero = "Jake";
- var gender = "male";
- var age = 36;
- var weapon = "laser";
- var pronoun;
-
-
-if (gender == "male") {
- pronoun = "his";
- } else if (gender == "female") {
- pronoun = "her";{
-}
-
-if (age < 18){
- xp = "is just the beggining";
-}
- else if (age > 21 && age <40) {
-   xp = "has seen a few battles";
- }
- else if (age > 40) {
-   xp = "has lived through many epic battles";
- }
-
-
-
-
-console.log(hero + "is our lovable hero, who" + age == 25 + "with his trusty" + weapon);
-
-
+//Setting 1 Fish 2 Fish
 var count;
-var animal = "koala";
-function animalHouse(a,b){
- count = a+b;
- console.log(count);
+var animal = "Goldfish";
+function animalHouse(a, b){
+	count = a + b;
+console.log(count);
 }
-animalHouse(10,23);
+animalHouse(34,12);
+
+//1 Fish 2 Fish Continue
+if (count > 2){
+console.log("We have too many" + animal + "s");
+}
+
+var hero = "Ant_Man";
+function avengersAssemble(avengers){
+	if (avengers == "Ant_Man"){
+		console.log("I think we should call the Avengers.");
+	}
+		else if(avengers == "Hulk"){
+			console.log("HULK SMASH");
+		}
+		else if(avengers == "Captain America"){
+			console.log("Avengers Assemble");
+		}
+		else if(avengers == "Thor"){
+			console.log("Odin's beard!");
+		}
+		else if(avengers == "")
+}
 
 
-if (count > 2) {
- console.log("We have to many " + animal + "s")
+
+
 
 var hero = "hulk";
 function avengersAssemble(a){
